@@ -2,6 +2,8 @@
 
 Encontrar dentro del array de recomendaciones el largo del subarray de mayor longitud donde la diferencia absoluta entre cualquiera de sus elementos sea menor o igual a 1. 
 
+https://gist.github.com/diegoacuna/f74a7a9c2c231cbe4efd593dcc572589
+
 ## Descripción 🚀
 
 El ejercicio consta en el recorrido de un array enviado como argumento a la función * find_longest_subarray *.
