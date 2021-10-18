@@ -6,11 +6,11 @@ Encontrar dentro del array de recomendaciones el largo del subarray de mayor lon
 
 El ejercicio consta en el recorrido de un array enviado como argumento a la función * find_longest_subarray *.
 
-La función *find_longest_subarray* recibe como parametro un array que recorrera y creara sub-array que contendran las combianaciones posibles si su diferencia absoluta es menor o igual a 1.
+La función find_longest_subarray recibe como parámetro el array que recorrerá y creara sub-array que contendrán las combinaciones posibles si su diferencia absoluta es menor o igual a 1.
 
-Al obtener todas estas combinaciones, se realiza un nuevo recorrido al nuevo array creado que contiene los subarray y cada item es enviado al metodo * filter_array *.
+Al obtener todas estas combinaciones, se realiza un nuevo recorrido al nuevo array creado que contiene los subarray y cada item es enviado al método * filter_array *.
 
-El metodo *filter_array* se encarga de verificar si dentro de cada subarray existe algún valor que no cumpla con la condición antes mencionada, en caso de existir se retorna un el valor para ser eliminado.
+El método filter_array se encarga de verificar si dentro de cada subarray existe algún valor que no cumpla con la condición antes mencionada, en caso de existir se retorna el valor para ser eliminado.
 
 Para finalizar se recorre todos los subarray que cumplen con la condición y se obtiene la longitud mas larga que pueda existir.
 
